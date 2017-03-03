@@ -1,6 +1,6 @@
 #title {
   text-align: center;
-  margin: 30px 0 20px 0;
+  margin: 30px 0 30px 0;
 }
 
 #main-title {
@@ -25,10 +25,14 @@
   border-radius: 4px 4px 4px 4px;
 }
 
-rect:hover {
-  opacity: 0.7;
-}
-
 text {
   font-size: 8px;
+}
+
+.legend-text {
+  font-size: 10px;
+}
+
+#legend rect:hover {
+  cursor:pointer;
 }
